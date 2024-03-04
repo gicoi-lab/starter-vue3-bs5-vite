@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import HelloWorld from '../components/HelloWorld.vue'
-import HelloWorld2 from '../components/HelloWorld2.vue'
+import HelloWorld from '@/views/HelloWorld.vue'
+import HelloWorld2 from '@/views/HelloWorld2.vue'
 
 const defaultRoutePath = '/'
 

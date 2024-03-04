@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCounterStore } from '../stores/counter'
+import { useCounterStore } from '../stores/counter.ts'
 import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
@@ -19,10 +19,10 @@ const count = ref(0)
     <button type="button" @click="counter.$reset()">reset</button>
     <p>
       Edit
-      <code>components/HelloWorld.vue</code> to test HMR
+      <code>components/HelloWorld2.vue</code> to test HMR
     </p>
 
-    <router-link to="/hello2"> HelloWorld2 </router-link>
+    <router-link to="/hello"> HelloWorld </router-link>
   </div>
 
   <p>
